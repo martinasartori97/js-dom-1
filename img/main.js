@@ -5,21 +5,17 @@ function clickAccendi() {
     button.addEventListener("click", accendiLampadina);
 
 }
+clickAccendi();
 console.log(button);
-
-
-
-
-function aggiungiImmagine() {
-    const nuovaImmagine = document.createElement("img")
-    nuovaImmagine.src ="img\yellow_lamp.png"
-}
-console.log(nuovaImmagine);
 
 
 function accendiLampadina() {
     const lampadina = document.getElementById("lampadina");
-    lampadina.src = img\yellow_lamp.png
+    lampadina.src = "img\yellow_lamp.png"
+}
+accendiLampadina();
+console.log(lampadina);
+
 
 
 
