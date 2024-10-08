@@ -12,7 +12,7 @@ console.log(button);
 
 function aggiungiImmagine() {
     const nuovaImmagine = document.createElement("img")
-    nuovaImmagine.src = img\yellow_lamp.png
+    nuovaImmagine.src ="img\yellow_lamp.png"
 }
 console.log(nuovaImmagine);
 
